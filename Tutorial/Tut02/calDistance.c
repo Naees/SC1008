@@ -46,12 +46,9 @@ void outputResult(double dist)
 }
 double calDistance1(double x1, double y1, double x2, double y2)
 {
-    double dx = (x2 - x1);
-    double dy = (y2 - y1);
-    return sqrt(dx * dx + dy * dy);
-    // double dx = pow(x2 - x1, 2);
-    // double dy = pow(y2 - y1, 2);
-    // return sqrt(dx + dy);
+    double dx = pow(x2 - x1, 2);
+    double dy = pow(y2 - y1, 2);
+    return sqrt(dx + dy);
 }
 void calDistance2(double x1, double y1, double x2, double y2, double *dist)
 {
