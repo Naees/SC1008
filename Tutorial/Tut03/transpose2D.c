@@ -31,6 +31,7 @@ int main()
     // We will use this as our test case
     int rowSize = 4;
     int colSize = 4;
+    int i,j;
 
     int ar[SIZE][SIZE] = {
             {1, 2, 3, 4},
@@ -38,6 +39,17 @@ int main()
             {6, 3, 4, 4},
             {7, 5, 6, 7}
         };
+
+    printf("Enter row size & column size of the 2D array: \n");
+    scanf("%d", &rowSize);
+    colSize = rowSize;
+    for (i = 0; i<rowSize; i++){
+        for(j=0; j<colSize; j++){
+            printf("Enter the number in the element:\n");
+            scanf("%d", &ar[i][j]);
+        }
+    }
+    
 
     // Print the original matrix
     printf("Original matrix:\n");

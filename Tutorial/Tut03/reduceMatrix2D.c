@@ -25,21 +25,34 @@ dimensional array (e.g. 4x4) that the function should process*/
 
 void reduceMatrix2D(int ar[][SIZE], int rowSize, int colSize);
 void printMatrix(int ar[][SIZE], int rowSize, int colSize);
+void reduceMatrix2DVersion2(int ar[][SIZE], int rowSize, int colSize);
 
 int main()
 {
     int rowSize = 4, colSize = 4;
+    int i, j;
     int ar[SIZE][SIZE] = {
         {4, 3, 8, 6},
         {9, 0, 6, 5},
         {5, 1, 2, 4},
         {9, 8, 3, 7}
     };
+
+    printf("Enter row size & column size of the 2D array: \n");
+    scanf("%d", &rowSize);
+    colSize = rowSize;
+    for (i = 0; i<rowSize; i++){
+        for(j=0; j<colSize; j++){
+            printf("Enter the number in the element:\n");
+            scanf("%d", &ar[i][j]);
+        }
+    }
     
     printf("Original martrix:\n");
     printMatrix(ar, rowSize, colSize);
     
-    reduceMatrix2D(ar, rowSize, colSize);
+    reduceMatrix2DVersion2(ar, rowSize, colSize);
+    // reduceMatrix2D(ar, rowSize, colSize);   
 
     printf("\nReduced matrix:\n");
     printMatrix(ar, rowSize, colSize);
@@ -76,6 +89,19 @@ void reduceMatrix2D(int ar[][SIZE], int rowSize, int colSize){
         }
     }
 }
+
+void reduceMatrix2DVersion2(int ar[][SIZE], int rowSize, int colSize){
+    int i, j, sum = 0;
+    for (j = 0; j < colSize; j++){
+        sum = 0;
+        for (i = j + 1; i < rowSize; i++){
+            sum += *(*(ar + i)+j);
+            *(*(ar + i)+j) = 0;
+        }
+        *(*(ar+j)+j) += sum;
+    }
+}
+
 
 /*
  * printMatrix:
