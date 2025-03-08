@@ -45,7 +45,7 @@ double average()
         fgets(studentDB[i].name, 20, stdin);
         if (p=strchr(studentDB[i].name,'\n')) *p = '\0';
         if (strcmp(studentDB[i].name, "END") == 0){
-            i--; // If I used a while loop I can just increment at the end so I don't have to adjust here
+            i++; // Do with i-- as END will be added in and you don't want it to be inside as it is used as a divisor
             break;
         }
         printf("Enter test score:\n");
