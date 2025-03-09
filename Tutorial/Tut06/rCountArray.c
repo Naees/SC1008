@@ -28,11 +28,10 @@ int rCountArray(int array[], int n, int a)
 {
     if (n == 0)
         return 0;
-    int count = rCountArray(array, n-1, a);
     if (array[n] == a)
-        return 1 + count;
+        return 1 + rCountArray(array, n-1, a);
     else
-        return count;
+        return rCountArray(array, n-1, a);
 }
 int rCountArrayVersion2(int array[], int n, int a)
 {
