@@ -17,7 +17,7 @@ example, a negative student ID, a negative math mark, a student name like
 
 The function prototypes for getting valid int input and float input are as follows:
 float getValidFloat();
-int getValidInt();*/
+int getValidInt(); */
 
 #include <iostream>
 #include <string.h>

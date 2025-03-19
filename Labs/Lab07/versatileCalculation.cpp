@@ -11,7 +11,7 @@ division by zero by returning 0 if the divisor is 0 (for any numeric type). A fu
 given for your to check if the divisor is 0. When the divisor is 0, the program should output an
 error message and return 0.
 The main function is given below for your testing. Note: For simplicity, we assume users
-will not input invalid type of data or operator here.*/
+will not input invalid type of data or operator here. */
 
 #include <iostream>
 #include <cmath>
