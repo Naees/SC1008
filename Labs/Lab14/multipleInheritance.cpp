@@ -63,10 +63,10 @@ protected:
 public:
     // TO-DO 2: Implement the constructor and destructor
     Academics(float g) : gpa(g) {
-        cout << "Academic constructor!" << endl;
+        cout << "Academics constructor!" << endl;
     }
     ~Academics() {
-        cout << "Academic destructor!" << endl;
+        cout << "Academics destructor!" << endl;
     }
 
     // Display academic information
