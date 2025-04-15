@@ -1,3 +1,11 @@
+///////// Student Info/////////
+//
+//           Your Name: Er Jia Liang Sean
+//      Your NTU Email: erji0002@e.ntu.edu.sg
+//
+//
+//
+
 /*1. (Merge Arrays) [10 Marks] Write a C++ function template called mergeArrays to
 concatenate two arrays of different type of data (i.e., int, double, float, string, long).
 Below are the basic requirements for the function template mergeArrays:

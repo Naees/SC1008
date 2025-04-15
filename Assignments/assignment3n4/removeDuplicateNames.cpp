@@ -1,3 +1,11 @@
+///////// Student Info/////////
+//
+//           Your Name: Er Jia Liang Sean
+//      Your NTU Email: erji0002@e.ntu.edu.sg
+//
+//
+//
+
 /*2. (Remove Duplicate Names from An Unsorted Linked List) [12 Marks] A linked list is
 used to store students’ name list. However, due to mistaking operations, there may be
 duplicated names in the linked list. You are asked to write a function to remove
