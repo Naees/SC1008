@@ -1,10 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
 /*2. (Phonebook) [10 Marks] You are creating a simple phone book application to map a
 person’s name (string) to their phone number (string). Users should be able to add
 entries, remove entries, and look up phone numbers by name. Create a class
