@@ -1,11 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
-
 /*2. (Operator Overloading) [10 marks] You are asked to implement a class called
 Complex that allows arithmetic operations on complex numbers. In mathematics, a
 complex number is written as:
