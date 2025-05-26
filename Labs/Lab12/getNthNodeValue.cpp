@@ -1,10 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
 /*1. (getNthNodeValue) [10 marks] Suppose a linked list is used to store students’ marks of
 SC1008 lab 2, and each node’s structure as follows:
 struct MarkNode {
