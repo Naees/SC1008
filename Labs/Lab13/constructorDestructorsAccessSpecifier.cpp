@@ -1,12 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
-
-
 /*1. (Class Constructors, Destructors and Access Specifier) [10 marks] 
 Suppose you are asked to implement a class called Product to manage the information of different
 products in an online shopping platform. Below are the detailed members of the class
