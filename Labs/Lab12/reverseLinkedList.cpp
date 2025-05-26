@@ -1,11 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
-
 /*2. (reverseLinkedList) [10 marks] Write a C++ function to reverse the order of a linked
 list. For example, a linked list like “A->B->C” will be changed to a linked list like “A<-B<-
 C” ( i.e., “C->B ->A”). If the input linked list is empty, your function should leave it as it is.
