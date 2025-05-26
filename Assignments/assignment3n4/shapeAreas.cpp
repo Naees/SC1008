@@ -1,11 +1,3 @@
-///////// Student Info/////////
-//
-//           Your Name: Er Jia Liang Sean
-//      Your NTU Email: erji0002@e.ntu.edu.sg
-//
-//
-//
-
 /*1. (Shape Areas) [10 Marks] Implement a simple class hierarchy to represent two-
 dimensional (2D) shapes. Your abstract base class, Shape, will define a common
 interface through a pure virtual function, calArea(), which will be implemented in the
